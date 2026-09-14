@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="158" viewBox="0 0 720 158">
+    <rect x="1" y="1" width="718" height="156" rx="16" fill="#0f141a" stroke="#30363d" stroke-opacity=".46"/>
+    <rect x="16" y="20" width="34" height="24" rx="6" fill="#1a1724" stroke="#5b4d78" stroke-opacity=".62"/>
+    <text x="33" y="37" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="700" fill="#c4b5fd">02</text>
+    <text x="66" y="39" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="22" font-weight="700" fill="#f0f6fc">Quant Research Platform</text>
+    <text x="66" y="68" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="14" fill="#9da7b3">Reproducible quantitative research infrastructure with explicit validation boundaries.</text>
+    <g><rect x="66" y="91" width="62" height="24" rx="12" fill="#3776AB" opacity=".90"/><rect x="66" y="91" width="62" height="24" rx="12" fill="#10141f" opacity=".12"/><rect x="66.8" y="91.8" width="60.4" height="22.4" rx="11" fill="none" stroke="#ffffff" stroke-opacity=".16"/><text x="97" y="108" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" font-weight="650" fill="#ffffff">Python</text></g>
+    <g><rect x="135" y="91" width="62" height="24" rx="12" fill="#0A9EDC" opacity=".90"/><rect x="135" y="91" width="62" height="24" rx="12" fill="#10141f" opacity=".12"/><rect x="135.8" y="91.8" width="60.4" height="22.4" rx="11" fill="none" stroke="#ffffff" stroke-opacity=".16"/><text x="166" y="108" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" font-weight="650" fill="#ffffff">pytest</text></g>
+    <g><rect x="204" y="91" width="118" height="24" rx="12" fill="#6D5BD0" opacity=".90"/><rect x="204" y="91" width="118" height="24" rx="12" fill="#10141f" opacity=".12"/><rect x="204.8" y="91.8" width="116.4" height="22.4" rx="11" fill="none" stroke="#ffffff" stroke-opacity=".16"/><text x="263" y="108" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" font-weight="650" fill="#ffffff">Research Infra</text></g>
+    <rect x="620" y="105" width="82" height="30" rx="15" fill="#5B6470" opacity=".92"/>
+    <rect x="620.8" y="105.8" width="80.4" height="28.4" rx="14.2" fill="none" stroke="#ffffff" stroke-opacity=".14"/>
+    <text x="661" y="125" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" font-weight="700" fill="#ffffff">PRIVATE</text>
+</svg>
