@@ -13,79 +13,31 @@
 
 ## Developer Toolkit
 
-<div align="center">
-
-<sub><b>CORE</b></sub><br />
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
-
-<br />
-
-<sub><b>AI / LLM</b></sub><br />
-![RAG](https://img.shields.io/badge/RAG-7C3AED?style=flat&logoColor=white)
-![Retrieval](https://img.shields.io/badge/Retrieval-6366F1?style=flat&logoColor=white)
-![Evaluation](https://img.shields.io/badge/Evaluation-A855F7?style=flat&logoColor=white)
-![Grounding](https://img.shields.io/badge/Grounding-8B5CF6?style=flat&logoColor=white)
-
-<br />
-
-<sub><b>INFRA / DELIVERY</b></sub><br />
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
-![React](https://img.shields.io/badge/React-087EA4?style=flat&logo=react&logoColor=white)
-![Vue.js](https://img.shields.io/badge/Vue.js-42B883?style=flat&logo=vuedotjs&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-3F4650?style=flat&logo=vercel&logoColor=white)
-![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat&logo=pytest&logoColor=white)
-
-</div>
+<img src="./assets/toolkit.svg" width="100%" alt="Developer Toolkit — Python, TypeScript, FastAPI, AI/LLM, Docker, Redis, GitHub Actions, React, Vue, Vercel and pytest" />
 
 ---
 
-## Selected Work
+## Featured Projects
 
-### `01` AI Interactive Portfolio
-Evidence-grounded portfolio with **Ask My Portfolio** and **JD Evidence Matcher**.
-
-![React](https://img.shields.io/badge/React-087EA4?style=flat&logo=react&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![LLM](https://img.shields.io/badge/LLM-7C3AED?style=flat&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-3F4650?style=flat&logo=vercel&logoColor=white)
-
-[![Open live project](https://img.shields.io/badge/Open_live_project-8B5CF6?style=flat&logo=vercel&logoColor=white)](https://ai-interactive-portfolio-woad.vercel.app/)
+<a href="https://ai-interactive-portfolio-woad.vercel.app/">
+  <img src="./assets/projects/ai-interactive-portfolio.svg" width="100%" alt="AI Interactive Portfolio — live project" />
+</a>
 
 <br />
 
-### `02` Quant Research Platform <sup><kbd>PRIVATE</kbd></sup>
-Reproducible quantitative research infrastructure with explicit validation boundaries.
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat&logo=pytest&logoColor=white)
-![Research Infrastructure](https://img.shields.io/badge/Research_Infrastructure-6D5BD0?style=flat&logoColor=white)
+<img src="./assets/projects/quant-research-platform.svg" width="100%" alt="Quant Research Platform — private research project" />
 
 <br />
 
-### `03` Video Similarity System
-Multimodal video comparison across visual, audio, and semantic signals.
-
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
-![Vue.js](https://img.shields.io/badge/Vue.js-42B883?style=flat&logo=vuedotjs&logoColor=white)
-![CUDA](https://img.shields.io/badge/CUDA-76B900?style=flat&logo=nvidia&logoColor=white)
-
-[![View repository](https://img.shields.io/badge/View_repository-21262D?style=flat&logo=github&logoColor=white)](https://github.com/terrylu930119/video_similarity_project)
+<a href="https://github.com/terrylu930119/video_similarity_project">
+  <img src="./assets/projects/video-similarity-system.svg" width="100%" alt="Video Similarity System — repository" />
+</a>
 
 ---
 
 ## Live Status
 
-<div align="center">
-
-**Currently** &nbsp; <kbd>Building reliable systems</kbd>
-
-**Focus** &nbsp; <kbd>AI</kbd> <kbd>Research automation</kbd> <kbd>Agents</kbd>
-
-</div>
+<img src="./assets/live-status.svg" width="100%" alt="Currently building reliable systems. Focus: AI, research automation, agents." />
 
 ---
 
