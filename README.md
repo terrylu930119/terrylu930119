@@ -1,154 +1,79 @@
 <div align="center">
 
-# Hi, I'm Terry Lu 👋
+<img src="./assets/profile-hero.svg" width="100%" alt="Terry Lu — Software Engineer · AI/LLM · Research Systems" />
 
-### Software Engineer · Python · AI/LLM · RAG · Research Infrastructure
+<br />
 
-*Building systems that are not only intelligent, but also inspectable, testable, and evidence-grounded.*
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-8B5CF6?style=for-the-badge&logo=vercel&logoColor=white)](https://ai-interactive-portfolio-woad.vercel.app/)
-[![GitHub](https://img.shields.io/badge/GitHub-terrylu930119-181717?style=for-the-badge&logo=github)](https://github.com/terrylu930119)
+[![Portfolio](https://img.shields.io/badge/Open_Portfolio-8B5CF6?style=for-the-badge&logo=vercel&logoColor=white)](https://ai-interactive-portfolio-woad.vercel.app/)
+[![Repositories](https://img.shields.io/badge/Repositories-21262D?style=for-the-badge&logo=github&logoColor=white)](https://github.com/terrylu930119?tab=repositories)
+![Open to Work](https://img.shields.io/badge/Open_to_Work-238636?style=for-the-badge)
 
 </div>
 
 ---
 
-## 👋 About Me
+## Developer Toolkit
 
-I'm a software engineer focused on **Python, AI/LLM systems, RAG, and research infrastructure**.
+**CORE**  
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
 
-I enjoy building systems where the interesting part is not only *making the model work*, but also making the result **traceable, testable, reproducible, and safe to reject when the evidence is insufficient**.
+**AI / LLM**  
+![RAG](https://img.shields.io/badge/RAG-7C3AED?style=flat&logoColor=white)
+![Retrieval](https://img.shields.io/badge/Retrieval-6366F1?style=flat&logoColor=white)
+![Evaluation](https://img.shields.io/badge/Evaluation-A855F7?style=flat&logoColor=white)
+![Grounding](https://img.shields.io/badge/Grounding-8B5CF6?style=flat&logoColor=white)
 
-- 🤖 Building evidence-grounded AI applications and LLM workflows
-- 🧪 Designing reproducible research pipelines and validation boundaries
-- 🔍 Interested in retrieval, evaluation, agent workflows, and research automation
-- 💼 Currently open to software engineering / AI engineering opportunities
-- 📍 New Taipei City, Taiwan
+**INFRA / DELIVERY**  
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
+![React](https://img.shields.io/badge/React-087EA4?style=flat&logo=react&logoColor=white)
+![Vue.js](https://img.shields.io/badge/Vue.js-42B883?style=flat&logo=vuedotjs&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-3F4650?style=flat&logo=vercel&logoColor=white)
+![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat&logo=pytest&logoColor=white)
 
 ---
 
-## 🛠️ Tech Stack
+## Selected Work
+
+### `01` AI Interactive Portfolio
+Evidence-grounded portfolio with **Ask My Portfolio** and **JD Evidence Matcher**.  
+`React` `TypeScript` `LLM` `Vercel`  
+[**Live ↗**](https://ai-interactive-portfolio-woad.vercel.app/)
+
+### `02` Quant Research Platform
+Reproducible quantitative research infrastructure with explicit validation boundaries.  
+`Python` `pytest` `Research Infrastructure`  
+**Private**
+
+### `03` Video Similarity System
+Multimodal video comparison across visual, audio, and semantic signals.  
+`FastAPI` `Vue` `CUDA`  
+[**Repo ↗**](https://github.com/terrylu930119/video_similarity_project)
 
 <div align="center">
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=flat-square&logo=vuedotjs&logoColor=4FC08D)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![Pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
-
-**AI / LLM:** RAG · Retrieval · Grounding · Structured Output · Evaluation · Agent Workflows  
-**Engineering:** Testing · Validation · CI/CD · API Design · Research Tooling · Reproducibility
+[**Explore more → Repositories**](https://github.com/terrylu930119?tab=repositories) · [**Portfolio**](https://ai-interactive-portfolio-woad.vercel.app/)
 
 </div>
 
 ---
 
-## ✨ Featured Work
+## Live Status
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 🤖 AI Interactive Portfolio
-
-An **evidence-first AI-native portfolio** that lets recruiters explore case studies, ask questions about demonstrated experience, and compare a job description against verifiable portfolio evidence.
-
-**Highlights**
-- Ask My Portfolio with supporting evidence
-- JD Evidence Matcher
-- Server-side validation and citation allow-lists
-- Static portfolio remains usable without AI services
-- React + TypeScript + Vite + Vercel
-
-[**→ Open Live Portfolio**](https://ai-interactive-portfolio-woad.vercel.app/)
-
-</td>
-<td width="50%" valign="top">
-
-### 🧪 Quant Research Platform
-
-A research and execution platform for algorithmic trading, with the current focus on **research governance rather than live trading**.
-
-**Highlights**
-- Point-in-time research boundaries
-- Fail-closed validation
-- Git-sealed provenance
-- Protected holdout workflow
-- Human-governed research verdicts
-- Python 3.12 + `uv` + automated validation
-
-**Private research project**
-
-</td>
-</tr>
-
-<tr>
-<td width="50%" valign="top">
-
-### 🎬 Video Similarity Project
-
-A multimodal video similarity and infringement-detection system combining **visual, audio, and semantic analysis**.
-
-**Highlights**
-- Image feature + perceptual hash comparison
-- Audio feature / embedding analysis
-- Faster-Whisper transcription
-- SentenceTransformer semantic similarity
-- FastAPI backend + Vue 3 frontend
-- GPU acceleration and caching
-
-[**→ View Repository**](https://github.com/terrylu930119/video_similarity_project)
-
-</td>
-<td width="50%" valign="top">
-
-### 🔬 What I'm Exploring Now
-
-I'm especially interested in systems where **AI agents and deterministic software cooperate instead of replacing each other**.
-
-Current themes:
-- Agent-operated development research
-- LLM evaluation and grounding
-- Reproducible quantitative research
-- Multi-strategy research infrastructure
-- Safer automation with explicit authority boundaries
-
-</td>
-</tr>
-</table>
-
----
-
-## 🧭 Engineering Principles
-
-> **Evidence over vibes.**
-
-- **Fail closed when uncertain** — invalid evidence should not silently become a confident answer.
-- **Make important decisions auditable** — preserve provenance, validation rules, and decision boundaries.
-- **Treat tests as part of the design** — not something added after implementation.
-- **Separate observation from conclusion** — especially in AI and research workflows.
-- **Prefer systems that can explain why they said “no.”**
-
-```python
-def decision(evidence):
-    if not evidence.is_valid:
-        return "fail_closed"
-    return "proceed"
+```text
+status = "building reliable systems"
+focus  = "AI · research automation · agents"
 ```
 
 ---
 
 <div align="center">
 
-### Let's build something reliable.
+**Open to Software Engineering & AI Engineering opportunities.**
 
-[Portfolio](https://ai-interactive-portfolio-woad.vercel.app/) ·
-[GitHub](https://github.com/terrylu930119)
+New Taipei City, Taiwan
 
 </div>
