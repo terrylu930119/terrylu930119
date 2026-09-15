@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="142" viewBox="0 0 1200 142">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<rect x="1" y="1" width="1198" height="140" rx="20" fill="#FBFAFF" stroke="#E7DDF8" stroke-width="2"/>
+<g transform="translate(34,26)"><path d="M1 8h3l1.7-4.3L8 12l2-6 1.5 2H15" fill="none" stroke="#8B5CF6" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text x="68" y="46" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="27" font-weight="800" fill="#241F31">Live Status</text>
+<rect x="28" y="64" width="1144" height="52" rx="15" fill="#F7F3FF" stroke="#E7DDF8" />
+<text x="48" y="84" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" font-weight="800" fill="#6D4BD1">LIVE STATUS</text>
+<text x="48" y="103" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="15" font-weight="700" fill="#241F31">Currently</text>
+<rect x="125" y="83" width="220" height="24" rx="12" fill="#E9DEFF"/><text x="235" y="99" text-anchor="middle" font-size="12" font-weight="700" fill="#6D4BD1" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">Building reliable systems</text>
+<text x="385" y="103" font-size="15" font-weight="700" fill="#241F31" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">Focus</text>
+<rect x="435" y="83" width="54" height="24" rx="12" fill="#E9DEFF"/><text x="462" y="99" text-anchor="middle" font-size="12" fill="#6D4BD1" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">AI</text>
+<rect x="500" y="83" width="170" height="24" rx="12" fill="#E9DEFF"/><text x="585" y="99" text-anchor="middle" font-size="12" fill="#6D4BD1" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">Research automation</text>
+<rect x="680" y="83" width="78" height="24" rx="12" fill="#E9DEFF"/><text x="719" y="99" text-anchor="middle" font-size="12" fill="#6D4BD1" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">Agents</text>
+<circle cx="1144" cy="90" r="5" fill="#8B5CF6"/><circle cx="1144" cy="90" r="12" fill="none" stroke="#8B5CF6" stroke-opacity=".2"/>
+</svg>
