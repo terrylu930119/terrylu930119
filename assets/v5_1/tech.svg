@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img" aria-label="Tech Stack">
+<rect width="1200" height="390" fill="#ffffff"/>
+<text x="42" y="48" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="30" font-weight="800" fill="#211b2f">🧊  Tech Stack</text>
+<line x1="42" y1="66" x2="1158" y2="66" stroke="#ddd5ee" stroke-width="2"/>
+<rect x="42" y="92" width="1116" height="248" rx="18" fill="#ffffff" stroke="#e4dcf7" stroke-width="2"/>
+<g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">
+  <text x="68" y="132" font-size="17" font-weight="800" fill="#5f46bd">Languages</text>
+  <text x="68" y="190" font-size="17" font-weight="800" fill="#5f46bd">AI / Backend</text>
+  <text x="68" y="248" font-size="17" font-weight="800" fill="#5f46bd">Infra / Tools</text>
+  <text x="68" y="306" font-size="17" font-weight="800" fill="#5f46bd">Frontend</text>
+</g>
+<g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="14" font-weight="700" fill="#29243a">
+  <g><rect x="250" y="106" width="112" height="34" rx="17" fill="#eef6ff" stroke="#d6e8ff"/><text x="282" y="128">🐍 Python</text></g>
+  <g><rect x="375" y="106" width="142" height="34" rx="17" fill="#eef6ff" stroke="#d6e8ff"/><text x="403" y="128">TS TypeScript</text></g>
+  <g><rect x="250" y="164" width="118" height="34" rx="17" fill="#eafbf7" stroke="#cdefe5"/><text x="280" y="186">⚡ FastAPI</text></g>
+  <g><rect x="381" y="164" width="92" height="34" rx="17" fill="#f4eeff" stroke="#e4d8ff"/><text x="414" y="186">RAG</text></g>
+  <g><rect x="486" y="164" width="116" height="34" rx="17" fill="#f4eeff" stroke="#e4d8ff"/><text x="511" y="186">Retrieval</text></g>
+  <g><rect x="615" y="164" width="128" height="34" rx="17" fill="#f4eeff" stroke="#e4d8ff"/><text x="640" y="186">LLM APIs</text></g>
+  <g><rect x="756" y="164" width="132" height="34" rx="17" fill="#f4eeff" stroke="#e4d8ff"/><text x="780" y="186">LangChain</text></g>
+  <g><rect x="250" y="222" width="118" height="34" rx="17" fill="#eef6ff" stroke="#d6e8ff"/><text x="279" y="244">🐳 Docker</text></g>
+  <g><rect x="381" y="222" width="106" height="34" rx="17" fill="#fff0ef" stroke="#f8d1cc"/><text x="411" y="244">Redis</text></g>
+  <g><rect x="500" y="222" width="165" height="34" rx="17" fill="#eef6ff" stroke="#d6e8ff"/><text x="524" y="244">GitHub Actions</text></g>
+  <g><rect x="678" y="222" width="108" height="34" rx="17" fill="#f4f4f5" stroke="#dedee3"/><text x="708" y="244">Vercel</text></g>
+  <g><rect x="799" y="222" width="106" height="34" rx="17" fill="#eef8fc" stroke="#d5edf6"/><text x="828" y="244">pytest</text></g>
+  <g><rect x="250" y="280" width="108" height="34" rx="17" fill="#eef9ff" stroke="#d2ecf8"/><text x="281" y="302">React</text></g>
+  <g><rect x="371" y="280" width="96" height="34" rx="17" fill="#ebfaf5" stroke="#cef0e3"/><text x="404" y="302">Vue</text></g>
+</g>
+</svg>
