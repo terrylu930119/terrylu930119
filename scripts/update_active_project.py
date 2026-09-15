@@ -3,7 +3,7 @@
 
 Counts commits authored by GH_USER on each featured repository's default branch
 within WINDOW_DAYS, then enables a subtle animated border and explanatory badge
-on the winner's SVG.
+on both the light and dark variants of the winner's project card.
 """
 
 from __future__ import annotations
@@ -27,19 +27,28 @@ STATE_PATH = Path(".github/active-project-state.json")
 PROJECTS = {
     "ai": {
         "repo": f"{OWNER}/ai_interactive_portfolio",
-        "svg": Path("assets/v5_5/project-ai.svg"),
+        "svgs": [
+            (Path("assets/v5_5/project-ai.svg"), "light"),
+            (Path("assets/v5_6/project-ai-dark.svg"), "dark"),
+        ],
     },
     "quant": {
         "repo": f"{OWNER}/crypto_auto_trading",
-        "svg": Path("assets/v5_5/project-quant.svg"),
+        "svgs": [
+            (Path("assets/v5_5/project-quant.svg"), "light"),
+            (Path("assets/v5_6/project-quant-dark.svg"), "dark"),
+        ],
     },
     "video": {
         "repo": f"{OWNER}/video_similarity_project",
-        "svg": Path("assets/v5_5/project-video.svg"),
+        "svgs": [
+            (Path("assets/v5_5/project-video.svg"), "light"),
+            (Path("assets/v5_6/project-video-dark.svg"), "dark"),
+        ],
     },
 }
 
-ACTIVE_BLOCK = """<!-- ACTIVITY_BORDER_START -->
+LIGHT_ACTIVE_BLOCK = """<!-- ACTIVITY_BORDER_START -->
 <rect x=\"42\" y=\"8\" width=\"1116\" height=\"178\" rx=\"18\" fill=\"none\" stroke=\"#8B5CF6\" stroke-width=\"3\" stroke-opacity=\".22\">
   <animate attributeName=\"stroke-opacity\" values=\".18;.95;.18\" dur=\"2.8s\" repeatCount=\"indefinite\"/>
   <animate attributeName=\"stroke-width\" values=\"2.5;4;2.5\" dur=\"2.8s\" repeatCount=\"indefinite\"/>
@@ -48,6 +57,18 @@ ACTIVE_BLOCK = """<!-- ACTIVITY_BORDER_START -->
   <rect x=\"876\" y=\"28\" width=\"168\" height=\"30\" rx=\"15\" fill=\"#f3edff\" stroke=\"#ddcffb\"/>
   <circle cx=\"896\" cy=\"43\" r=\"4.5\" fill=\"#8B5CF6\"><animate attributeName=\"opacity\" values=\".45;1;.45\" dur=\"2.8s\" repeatCount=\"indefinite\"/></circle>
   <text x=\"969\" y=\"43\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif\" font-size=\"12.5\" font-weight=\"800\" fill=\"#6D4BD1\">MOST ACTIVE · 30D</text>
+</g>
+<!-- ACTIVITY_BORDER_END -->"""
+
+DARK_ACTIVE_BLOCK = """<!-- ACTIVITY_BORDER_START -->
+<rect x=\"42\" y=\"8\" width=\"1116\" height=\"178\" rx=\"18\" fill=\"none\" stroke=\"#A855F7\" stroke-width=\"3\" stroke-opacity=\".28\">
+  <animate attributeName=\"stroke-opacity\" values=\".22;1;.22\" dur=\"2.8s\" repeatCount=\"indefinite\"/>
+  <animate attributeName=\"stroke-width\" values=\"2.5;4;2.5\" dur=\"2.8s\" repeatCount=\"indefinite\"/>
+</rect>
+<g>
+  <rect x=\"876\" y=\"28\" width=\"168\" height=\"30\" rx=\"15\" fill=\"#271A3E\" stroke=\"#6846A5\"/>
+  <circle cx=\"896\" cy=\"43\" r=\"4.5\" fill=\"#C084FC\"><animate attributeName=\"opacity\" values=\".45;1;.45\" dur=\"2.8s\" repeatCount=\"indefinite\"/></circle>
+  <text x=\"969\" y=\"43\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif\" font-size=\"12.5\" font-weight=\"800\" fill=\"#D8B4FE\">MOST ACTIVE · 30D</text>
 </g>
 <!-- ACTIVITY_BORDER_END -->"""
 
@@ -114,16 +135,18 @@ def pick_winner(counts: dict[str, int], previous: str | None) -> str:
     tied = [key for key, count in counts.items() if count == highest]
     if previous in tied:
         return previous
-    # Deterministic fallback if two projects have exactly the same count.
     for key in ("quant", "ai", "video"):
         if key in tied:
             return key
     raise AssertionError("No winner found")
 
 
-def update_svg(path: Path, active: bool) -> None:
+def update_svg(path: Path, active: bool, theme: str) -> None:
     text = path.read_text(encoding="utf-8")
-    replacement = ACTIVE_BLOCK if active else INACTIVE_BLOCK
+    if active:
+        replacement = DARK_ACTIVE_BLOCK if theme == "dark" else LIGHT_ACTIVE_BLOCK
+    else:
+        replacement = INACTIVE_BLOCK
     new_text, replacements = BLOCK_RE.subn(replacement, text, count=1)
     if replacements != 1:
         raise RuntimeError(f"Missing activity border markers in {path}")
@@ -149,7 +172,8 @@ def main() -> int:
     winner = pick_winner(counts, previous_winner())
 
     for key, project in PROJECTS.items():
-        update_svg(project["svg"], active=(key == winner))
+        for path, theme in project["svgs"]:
+            update_svg(path, active=(key == winner), theme=theme)
 
     STATE_PATH.parent.mkdir(parents=True, exist_ok=True)
     STATE_PATH.write_text(
