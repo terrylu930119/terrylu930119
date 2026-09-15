@@ -14,7 +14,7 @@
 
 <br />
 
-<img align="right" src="./assets/v4.3/project-showcase-placeholder.svg" width="34%" alt="Project showcase GIF placeholder">
+<img align="right" src="./assets/v4.4/project-showcase-placeholder.svg" width="34%" alt="Project showcase GIF placeholder">
 
 <a href="https://ai-interactive-portfolio-woad.vercel.app/"><img src="./assets/v4.3/project-ai-light.svg" width="62%" alt="AI Interactive Portfolio"></a>
 
@@ -30,5 +30,9 @@
 <br />
 
 <img src="./assets/v4.3/live-light.svg" width="100%" alt="Live Status">
+
+<br />
+
+<sub>Open to Software Engineering &amp; AI Engineering opportunities.</sub>
 
 </div>
