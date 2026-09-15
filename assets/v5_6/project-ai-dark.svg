@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="194" viewBox="0 0 1200 194" role="img" aria-label="AI Interactive Portfolio dark">
+<rect width="1200" height="194" fill="#0D1117"/>
+<rect x="42" y="8" width="1116" height="178" rx="18" fill="#11161F" stroke="#303846" stroke-width="2"/>
+<!-- ACTIVITY_BORDER_START -->
+<!-- ACTIVITY_BORDER_END -->
+<rect x="62" y="38" width="60" height="60" rx="14" fill="#221A36" stroke="#493A6E"/>
+<text x="92" y="68" dominant-baseline="middle" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" font-weight="800" fill="#B69CFF">01</text>
+<text x="146" y="54" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="25" font-weight="800" fill="#F4F7FB">AI Interactive Portfolio</text>
+<text x="146" y="88" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="16" fill="#AEB7C4">Evidence-grounded portfolio with Ask My Portfolio and JD Evidence Matcher.</text>
+<g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="13.5" font-weight="700" fill="#E6EDF3">
+  <rect x="146" y="118" width="92" height="34" rx="17" fill="#102632" stroke="#205065"/><text x="192" y="135" text-anchor="middle" dominant-baseline="middle">React</text>
+  <rect x="248" y="118" width="126" height="34" rx="17" fill="#12243A" stroke="#264667"/><text x="311" y="135" text-anchor="middle" dominant-baseline="middle">TypeScript</text>
+  <rect x="384" y="118" width="78" height="34" rx="17" fill="#211A35" stroke="#4B3678"/><text x="423" y="135" text-anchor="middle" dominant-baseline="middle">LLM</text>
+  <rect x="472" y="118" width="92" height="34" rx="17" fill="#1B1F27" stroke="#3A404B"/><text x="518" y="135" text-anchor="middle" dominant-baseline="middle">Vercel</text>
+</g>
+<rect x="1060" y="28" width="76" height="30" rx="15" fill="#132922" stroke="#245743"/>
+<text x="1098" y="43" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12.5" font-weight="800" fill="#7EE2B8">LIVE ↗</text>
+</svg>
