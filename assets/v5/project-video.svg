@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="132" viewBox="0 0 1200 132" role="img" aria-label="Video Similarity System">
+<rect width="1200" height="132" fill="#FFFFFF"/>
+<rect x="1" y="1" width="1198" height="130" rx="18" fill="#FFFFFF" stroke="#E7DDF8" stroke-width="2"/>
+<rect x="20" y="25" width="48" height="48" rx="12" fill="#EEE7FF"/><text x="44" y="53" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" font-weight="800" fill="#6D4BD1">03</text>
+<text x="86" y="43" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="22" font-weight="800" fill="#241F31">Video Similarity System</text>
+<text x="86" y="68" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="13.5" fill="#6F6880">Multimodal video comparison across visual, audio, and semantic signals.</text>
+<rect x="86" y="86" width="82" height="28" rx="14" fill="#EAFBF7"/><text x="127" y="104" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="11.5" font-weight="700" fill="#241F31">FastAPI</text>
+<rect x="176" y="86" width="72" height="28" rx="14" fill="#EBFAF5"/><text x="212" y="104" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="11.5" font-weight="700" fill="#241F31">Vue</text>
+<rect x="256" y="86" width="72" height="28" rx="14" fill="#F1F9DE"/><text x="292" y="104" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="11.5" font-weight="700" fill="#241F31">CUDA</text>
+<rect x="1098" y="86" width="80" height="28" rx="14" fill="#F0E8FF"/><text x="1138" y="104" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" font-weight="800" fill="#6D4BD1">REPO</text>
+</svg>
