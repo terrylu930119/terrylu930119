@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="92" viewBox="0 0 1200 92">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<rect x="1" y="1" width="1198" height="90" rx="20" fill="#FBFAFF" stroke="#E7DDF8" stroke-width="2"/>
+<g transform="translate(34,28)"><path d="M1.5 4.2h5l1.4 1.8h6.6v7.3H1.5z" fill="none" stroke="#8B5CF6" stroke-width="1.5" stroke-linejoin="round"/></g>
+<text x="68" y="47" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="27" font-weight="800" fill="#241F31">Featured Projects</text>
+<text x="68" y="69" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="13" fill="#6F6880">A few representative builds across portfolio, research infrastructure, and multimodal systems.</text>
+</svg>
