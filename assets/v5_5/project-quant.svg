@@ -1,21 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="180" viewBox="0 0 1200 180" role="img" aria-label="Quant Research Platform">
-<rect width="1200" height="180" fill="#fff"/>
-<rect x="42" y="8" width="1116" height="164" rx="18" fill="#fff" stroke="#e4dcf7" stroke-width="2"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="194" viewBox="0 0 1200 194" role="img" aria-label="Quant Research Platform">
+<rect width="1200" height="194" fill="#fff"/>
+<rect x="42" y="8" width="1116" height="178" rx="18" fill="#fff" stroke="#e4dcf7" stroke-width="2"/>
 <!-- ACTIVITY_BORDER_START -->
-<rect x="42" y="8" width="1116" height="164" rx="18" fill="none" stroke="#8B5CF6" stroke-width="3" stroke-opacity=".22">
+<rect x="42" y="8" width="1116" height="178" rx="18" fill="none" stroke="#8B5CF6" stroke-width="3" stroke-opacity=".22">
   <animate attributeName="stroke-opacity" values=".18;.95;.18" dur="2.8s" repeatCount="indefinite"/>
   <animate attributeName="stroke-width" values="2.5;4;2.5" dur="2.8s" repeatCount="indefinite"/>
 </rect>
-<!-- ACTIVITY_BORDER_END -->
-<rect x="62" y="36" width="60" height="60" rx="14" fill="#efe7ff"/>
-<text x="92" y="66" dominant-baseline="middle" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" font-weight="800" fill="#7251d2">02</text>
-<text x="146" y="50" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="25" font-weight="800" fill="#211b2f">Quant Research Platform</text>
-<text x="146" y="82" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="16" fill="#6f6880">Reproducible quantitative research infrastructure with explicit validation boundaries.</text>
-<g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="13.5" font-weight="700" fill="#2b2638">
-  <rect x="656" y="104" width="96" height="34" rx="17" fill="#eef6ff" stroke="#d6e8ff"/><text x="704" y="121" text-anchor="middle" dominant-baseline="middle">Python</text>
-  <rect x="762" y="104" width="88" height="34" rx="17" fill="#eef8fc" stroke="#d5edf6"/><text x="806" y="121" text-anchor="middle" dominant-baseline="middle">pytest</text>
-  <rect x="860" y="104" width="104" height="34" rx="17" fill="#f4eeff" stroke="#e4d8ff"/><text x="912" y="121" text-anchor="middle" dominant-baseline="middle">Research</text>
-  <rect x="974" y="104" width="146" height="34" rx="17" fill="#f1ebff" stroke="#e4d8ff"/><text x="1047" y="121" text-anchor="middle" dominant-baseline="middle">Automation</text>
+<g>
+  <rect x="876" y="28" width="168" height="30" rx="15" fill="#f3edff" stroke="#ddcffb"/>
+  <circle cx="896" cy="43" r="4.5" fill="#8B5CF6"><animate attributeName="opacity" values=".45;1;.45" dur="2.8s" repeatCount="indefinite"/></circle>
+  <text x="969" y="43" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12.5" font-weight="800" fill="#6D4BD1">MOST ACTIVE · 30D</text>
 </g>
-<text x="1092" y="154" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="15" font-weight="700" fill="#7c748d">Private</text>
+<!-- ACTIVITY_BORDER_END -->
+<rect x="62" y="38" width="60" height="60" rx="14" fill="#efe7ff"/>
+<text x="92" y="68" dominant-baseline="middle" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" font-weight="800" fill="#7251d2">02</text>
+<text x="146" y="54" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="25" font-weight="800" fill="#211b2f">Quant Research Platform</text>
+<text x="146" y="88" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="16" fill="#6f6880">Reproducible quantitative research infrastructure with explicit validation boundaries.</text>
+<g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="13.5" font-weight="700" fill="#2b2638">
+  <rect x="146" y="118" width="96" height="34" rx="17" fill="#eef6ff" stroke="#d6e8ff"/><text x="194" y="135" text-anchor="middle" dominant-baseline="middle">Python</text>
+  <rect x="252" y="118" width="88" height="34" rx="17" fill="#eef8fc" stroke="#d5edf6"/><text x="296" y="135" text-anchor="middle" dominant-baseline="middle">pytest</text>
+  <rect x="350" y="118" width="104" height="34" rx="17" fill="#f4eeff" stroke="#e4d8ff"/><text x="402" y="135" text-anchor="middle" dominant-baseline="middle">Research</text>
+  <rect x="464" y="118" width="146" height="34" rx="17" fill="#f1ebff" stroke="#e4d8ff"/><text x="537" y="135" text-anchor="middle" dominant-baseline="middle">Automation</text>
+</g>
+<rect x="1060" y="28" width="76" height="30" rx="15" fill="#f4f4f5" stroke="#dedee3"/>
+<text x="1098" y="43" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12" font-weight="800" fill="#6f6878">PRIVATE</text>
 </svg>
