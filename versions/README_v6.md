@@ -1,0 +1,1 @@
+<div align="center"><img src="./assets/v3r7/section-top.svg" width="100%" alt="Hero and Developer Toolkit"/><img src="./assets/v3r7/section-projects.svg" width="100%" alt="Featured Projects"/><img src="./assets/v3r7/section-bottom.svg" width="100%" alt="Live Status and Footer"/></div>
