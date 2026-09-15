@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="88" viewBox="0 0 1200 88" role="img" aria-label="Featured Projects">
+<rect width="1200" height="88" fill="#ffffff"/>
+<path d="m54 22 4.2 8.5 9.4 1.4-6.8 6.6 1.6 9.3L54 43.4l-8.4 4.4 1.6-9.3-6.8-6.6 9.4-1.4Z" fill="#7C5CFC"/>
+<text x="82" y="48" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="30" font-weight="800" fill="#211b2f">Featured Projects</text>
+<line x1="42" y1="66" x2="1158" y2="66" stroke="#ddd5ee" stroke-width="2"/>
+</svg>
