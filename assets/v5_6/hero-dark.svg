@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="370" viewBox="0 0 1200 370" role="img" aria-label="Terry Lu hero dark">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0D1117"/><stop offset=".55" stop-color="#151426"/><stop offset="1" stop-color="#241946"/></linearGradient>
+  <radialGradient id="glow" cx="82%" cy="25%" r="58%"><stop offset="0" stop-color="#8B5CF6" stop-opacity=".34"/><stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/></radialGradient>
+  <clipPath id="c0"><rect x="78" y="199" width="0" height="52"><animate attributeName="width" values="0;720;720;0;0" keyTimes="0;0.140;0.230;0.249;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
+  <clipPath id="c1"><rect x="78" y="199" width="0" height="52"><animate attributeName="width" values="0;0;720;720;0;0" keyTimes="0;0.250;0.390;0.480;0.499;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
+  <clipPath id="c2"><rect x="78" y="199" width="0" height="52"><animate attributeName="width" values="0;0;720;720;0;0" keyTimes="0;0.500;0.640;0.730;0.749;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
+  <clipPath id="c3"><rect x="78" y="199" width="0" height="52"><animate attributeName="width" values="0;0;720;720;0;0" keyTimes="0;0.750;0.890;0.980;0.999;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
+</defs>
+<rect width="1200" height="370" fill="#0D1117"/>
+<rect x="1.5" y="1.5" width="1197" height="367" rx="26" fill="url(#bg)" stroke="#5B4696" stroke-width="3"/>
+<rect x="1.5" y="1.5" width="1197" height="367" rx="26" fill="url(#glow)"/>
+<text x="58" y="58" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="17" font-weight="700" fill="#B69CFF">$ whoami</text>
+<text x="58" y="136" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="62" font-weight="800" fill="#F4F7FB">Hi, I'm Terry Lu 👋</text>
+<text x="58" y="184" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="26" font-weight="700" fill="#C4A8FF">Software Engineer · AI/LLM · Research Systems</text>
+<rect x="58" y="199" width="755" height="54" rx="14" fill="#211A35" stroke="#4B3678"/>
+<g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="20" font-weight="700" fill="#C4A8FF">
+  <g opacity="0"><animate attributeName="opacity" values="1;1;1;0;0" keyTimes="0;0.140;0.230;0.249;1" dur="16s" repeatCount="indefinite"/><text x="78" y="233" clip-path="url(#c0)">Building reliable AI systems.</text></g>
+  <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.250;0.390;0.480;0.499;1" dur="16s" repeatCount="indefinite"/><text x="78" y="233" clip-path="url(#c1)">Designing evidence-grounded LLM systems.</text></g>
+  <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.500;0.640;0.730;0.749;1" dur="16s" repeatCount="indefinite"/><text x="78" y="233" clip-path="url(#c2)">Turning research workflows into reproducible infrastructure.</text></g>
+  <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.750;0.890;0.980;0.999;1" dur="16s" repeatCount="indefinite"/><text x="78" y="233" clip-path="url(#c3)">Automating the boring parts.</text></g>
+</g>
+<rect x="790" y="213" width="5" height="26" rx="2" fill="#A78BFA"><animate attributeName="opacity" values="1;0;1" dur=".8s" repeatCount="indefinite"/></rect>
+<text x="58" y="303" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="20" fill="#B8C0CC">I build reliable software across backend engineering, AI systems, and research infrastructure.</text>
+<g transform="translate(880,68)"><ellipse cx="130" cy="100" rx="150" ry="95" fill="#3A245E" opacity=".58"/><rect x="45" y="34" width="220" height="144" rx="20" fill="#141824" fill-opacity=".92" stroke="#644CA1"/><circle cx="72" cy="59" r="5" fill="#D16DDF"/><circle cx="90" cy="59" r="5" fill="#B78CFF"/><circle cx="108" cy="59" r="5" fill="#6EA8FF"/><text x="72" y="92" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="16" fill="#C4A8FF">// Build</text><text x="72" y="121" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="16" fill="#C4A8FF">// Research</text><text x="72" y="150" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="16" fill="#C4A8FF">// Create</text></g>
+</svg>
