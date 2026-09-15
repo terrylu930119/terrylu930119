@@ -11,7 +11,7 @@
 <rect x="1.5" y="1.5" width="1197" height="367" rx="26" fill="url(#bg)" stroke="#5B4696" stroke-width="3"/>
 <rect x="1.5" y="1.5" width="1197" height="367" rx="26" fill="url(#glow)"/>
 <text x="58" y="58" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="17" font-weight="700" fill="#B69CFF">$ whoami</text>
-<text x="58" y="136" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="62" font-weight="800" fill="#F4F7FB">Hi, I'm Terry Lu 👋</text>
+<text x="58" y="136" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="62" font-weight="800" fill="#F4F7FB">Hi, I'm Terry Lu</text>
 <text x="58" y="184" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="26" font-weight="700" fill="#C4A8FF">Software Engineer · AI/LLM · Research Systems</text>
 <rect x="58" y="199" width="755" height="54" rx="14" fill="#211A35" stroke="#4B3678"/>
 <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="20" font-weight="700" fill="#C4A8FF">
