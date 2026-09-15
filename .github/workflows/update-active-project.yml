@@ -1,0 +1,56 @@
+name: Update active project highlight
+
+on:
+  schedule:
+    - cron: "17 2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-active-project:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Check activity token
+        id: token
+        shell: bash
+        env:
+          GH_ACTIVITY_TOKEN: ${{ secrets.PROFILE_ACTIVITY_PAT }}
+        run: |
+          if [ -z "$GH_ACTIVITY_TOKEN" ]; then
+            echo "PROFILE_ACTIVITY_PAT is not configured; skipping activity update."
+            echo "ready=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "ready=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Find most active featured project
+        if: steps.token.outputs.ready == 'true'
+        env:
+          GH_ACTIVITY_TOKEN: ${{ secrets.PROFILE_ACTIVITY_PAT }}
+          GH_USER: terrylu930119
+          WINDOW_DAYS: "30"
+        run: python scripts/update_active_project.py
+
+      - name: Commit updated highlight
+        if: steps.token.outputs.ready == 'true'
+        shell: bash
+        run: |
+          if git diff --quiet; then
+            echo "No activity highlight change."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/v5_5/project-*.svg .github/active-project-state.json
+          git commit -m "chore(profile): refresh active project highlight"
+          git push
