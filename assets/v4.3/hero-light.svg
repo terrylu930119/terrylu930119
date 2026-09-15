@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<defs>
+  <linearGradient id="hbg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#FFFFFF"/>
+    <stop offset=".55" stop-color="#FBF9FF"/>
+    <stop offset="1" stop-color="#F3ECFF"/>
+  </linearGradient>
+  <radialGradient id="glow" cx="84%" cy="28%" r="54%">
+    <stop offset="0" stop-color="#B89AF8" stop-opacity=".34"/>
+    <stop offset="1" stop-color="#B89AF8" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+<rect x="1" y="1" width="1198" height="328" rx="24" fill="url(#hbg)" stroke="#E7DDF8" stroke-width="2"/>
+<rect x="1" y="1" width="1198" height="328" rx="24" fill="url(#glow)"/>
+<text x="48" y="55" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" font-weight="700" fill="#6D4BD1">$ whoami</text>
+<text x="48" y="128" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="56" font-weight="800" fill="#241F31">Hi, I'm Terry Lu</text>
+<text x="48" y="177" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="22" font-weight="700" fill="#6D4BD1">Software Engineer · AI/LLM · Research Systems</text>
+<text x="48" y="224" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="19" fill="#6F6880">I build reliable software across backend engineering, AI systems, and</text>
+<text x="48" y="254" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="19" fill="#6F6880">research infrastructure.</text>
+<path d="M790 82 C900 10, 1065 40, 1120 132 C1160 200, 1090 270, 965 255 C850 242, 760 176, 790 82Z" fill="#EDE5FF" opacity=".7"/>
+<rect x="875" y="92" width="245" height="130" rx="18" fill="#FFFFFF" fill-opacity=".7" stroke="#DDCFF8"/>
+<circle cx="900" cy="116" r="4" fill="#B9A5E9"/><circle cx="915" cy="116" r="4" fill="#B9A5E9"/><circle cx="930" cy="116" r="4" fill="#B9A5E9"/>
+<text x="900" y="150" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" fill="#9B7AE6">// Build</text>
+<text x="900" y="176" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" fill="#9B7AE6">// Research</text>
+<text x="900" y="202" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" fill="#9B7AE6">// Create</text>
+</svg>
