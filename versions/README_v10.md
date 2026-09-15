@@ -1,0 +1,31 @@
+<div align="center">
+
+<img src="./assets/v4.3/hero-light.svg" width="100%" alt="Terry Lu — Software Engineer · AI/LLM · Research Systems">
+
+<br />
+<br />
+
+<img src="./assets/v4.3/toolkit-light.svg" width="100%" alt="Developer Toolkit">
+
+<br />
+<br />
+
+<img src="./assets/v4.3/featured-header-light.svg" width="100%" alt="Featured Projects">
+
+<br />
+
+<img align="right" src="./assets/v4.6/project-showcase-placeholder.svg" width="34%" alt="Project showcase GIF placeholder">
+<a href="https://ai-interactive-portfolio-woad.vercel.app/"><img align="left" src="./assets/v4.6/project-ai-light.svg" width="62%" alt="AI Interactive Portfolio"></a>
+<img align="left" src="./assets/v4.6/project-quant-light.svg" width="62%" alt="Quant Research Platform">
+<a href="https://github.com/terrylu930119/video_similarity_project"><img align="left" src="./assets/v4.6/project-video-light.svg" width="62%" alt="Video Similarity System"></a>
+
+<br clear="both" />
+<br />
+
+<img src="./assets/v4.3/live-light.svg" width="100%" alt="Live Status">
+
+<br />
+
+<sub>Open to Software Engineering &amp; AI Engineering opportunities.</sub>
+
+</div>
