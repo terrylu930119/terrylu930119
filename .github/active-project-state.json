@@ -1,7 +1,11 @@
 {
   "active_project": "quant",
-  "counts": {},
-  "updated_at": null,
+  "counts": {
+    "ai": 128,
+    "quant": 577,
+    "video": 0
+  },
+  "updated_at": "2026-09-15T11:21:56.011349Z",
   "username": "terrylu930119",
   "window_days": 30
 }
