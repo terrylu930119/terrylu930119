@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="52" viewBox="0 0 900 52" role="img" aria-label="Animated typing intro">
+<rect width="900" height="52" rx="12" fill="#F7F3FF"/>
+<rect x="1" y="1" width="898" height="50" rx="11" fill="none" stroke="#E7DDF8"/>
+<defs><clipPath id="c0"><rect x="20" y="0" width="0" height="52"><animate attributeName="width" values="0;820;820;0;0" keyTimes="0;0.140;0.230;0.249;1" dur="16s" repeatCount="indefinite"/></rect></clipPath></defs>
+<g opacity="0"><animate attributeName="opacity" values="1;1;1;0;0" keyTimes="0;0.140;0.230;0.249;1" dur="16s" repeatCount="indefinite"/><text x="26" y="33" clip-path="url(#c0)" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="20" font-weight="700" fill="#6D4BD1">Building reliable AI systems.</text></g>
+<defs><clipPath id="c1"><rect x="20" y="0" width="0" height="52"><animate attributeName="width" values="0;0;820;820;0;0" keyTimes="0;0.250;0.390;0.480;0.499;1" dur="16s" repeatCount="indefinite"/></rect></clipPath></defs>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.250;0.390;0.480;0.499;1" dur="16s" repeatCount="indefinite"/><text x="26" y="33" clip-path="url(#c1)" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="20" font-weight="700" fill="#6D4BD1">Designing evidence-grounded LLM applications.</text></g>
+<defs><clipPath id="c2"><rect x="20" y="0" width="0" height="52"><animate attributeName="width" values="0;0;820;820;0;0" keyTimes="0;0.500;0.640;0.730;0.749;1" dur="16s" repeatCount="indefinite"/></rect></clipPath></defs>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.500;0.640;0.730;0.749;1" dur="16s" repeatCount="indefinite"/><text x="26" y="33" clip-path="url(#c2)" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="20" font-weight="700" fill="#6D4BD1">Turning research workflows into reproducible infrastructure.</text></g>
+<defs><clipPath id="c3"><rect x="20" y="0" width="0" height="52"><animate attributeName="width" values="0;0;820;820;0;0" keyTimes="0;0.750;0.890;0.980;0.999;1" dur="16s" repeatCount="indefinite"/></rect></clipPath></defs>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.750;0.890;0.980;0.999;1" dur="16s" repeatCount="indefinite"/><text x="26" y="33" clip-path="url(#c3)" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="20" font-weight="700" fill="#6D4BD1">Automating the boring parts.</text></g>
+<rect x="862" y="14" width="4" height="25" rx="2" fill="#8B5CF6"><animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite"/></rect>
+</svg>
